@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: "Anta";
+    src: local(Anta-Regular),
+    url("/src/fonts/Anta-Regular.ttf") format("truetype");
+
+}
+
+@font-face{
+    font-family: "PTSansBold";
+    src: local(PTSans-Bold),
+    url("Graphology/src/fonts/PTSans-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "PTSansBoldItalic";
+    src: local(PTSans-BoldItalic),
+    url("Graphology/src/fonts/PTSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "PTSansRegular";
+    src: local(PTSans-Regular),
+    url("Graphology/src/fonts/PTSans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "PoppinsBlack";
+    src: local(Poppins-Black),
+    url("Graphology/src/fonts/Poppins-Black.ttf") format("truetype");
+}
