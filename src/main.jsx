@@ -7,16 +7,13 @@ import {
   Route,
   RouterProvider,
 } from "react-router";
-import Mainscreen from "./Login and Signup/mainscreen";
 import Login from "./Login and Signup/Login";
-import Signup from "./Login and Signup/Signup";
+import ChatScreen from "./ChatScreen/chatscreen";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Login />}>
-      <Route path="mainscreen" element={<Mainscreen />} />
+    <Route path="/" element={<ChatScreen />}>
       <Route path="login" element={<Login />} />
-      <Route path="signup" element={<Signup />} />
       <Route path="*" element={<div>404 - Page Not Found</div>} />
     </Route>
   )
