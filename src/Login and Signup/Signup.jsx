@@ -53,7 +53,7 @@ function Signup() {
   const toggleVisibility = () => setIsVisible(!isVisible);
   return (
     <div className=" h-screen bg-[#F2F7F5]">
-      <div className="flex justify-between h-1/6 p-12">
+      <div className="flex justify-between h-10 p-12">
         <div className="w-10/12 text-2xl font-anta hover:cursor-pointer font-xl text-[#00473E]">Graphyyy</div>   {/* Left Side */}
         <div className="flex justify-end w-2/12">          {/* Right Side */}
           <button className="text-2xl font-anta hover:font-extrabold font-xl text-[#00473E]" onClick={NavigateToLoginX}>Login</button>
@@ -64,7 +64,7 @@ function Signup() {
       <div className="h-5/6 flex justify-center items-center">
         <div className='flex items-center justify-center h-5/6 w-4/6'>
           <div className='bg-[#FFFFFF] text-center w-3/6 h-full p-12 rounded-2xl'>
-            <h1 className='font-poppinsBlack font-bold text-2xl mb-4' >Graphy</h1>
+            <h1 className='font-poppinsBlack font-bold text-2xl mb-4' >Create an account</h1>
             {/* <Input label="Email" type="email" /> */}
             <Input
               className="max-w-xs m-auto mt-4"
@@ -99,6 +99,17 @@ function Signup() {
 
             <Button color="warning" className='mt-6' onPress={onclickHandleSignIn}>Register</Button>
 
+            <div className="mt-2 flex justify-center">
+              <p>Don't have an account?</p>
+              <p className="text-[#10A37F] ml-1 hover:cursor-pointer">Sign Up</p>
+            </div>
+
+            <div className="mt-5 flex items-center justify-center space-x-4">
+              <div className="flex-grow border-t border-dashed border-gray-300"></div>
+              <span className="text-gray-500">OR</span>
+              <div className="flex-grow border-t border-dashed border-gray-300"></div>
+            </div>
+
             <div className='w-full justify-center flex flex-col items-center'>
 
               <GoogleLoginButtonX />
@@ -123,5 +134,4 @@ function Signup() {
 }
 
 export default Signup
-
 

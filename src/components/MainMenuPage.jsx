@@ -79,7 +79,7 @@ function MainMenuPage() {
         {/* Dropzone container */}
         <div
           {...getRootProps()}
-          className={`border-2 p-6 w-80 h-36 rounded-lg flex items-center justify-center 
+          className={`border-2 p-6 w-full h-36 rounded-lg flex items-center justify-center 
             ${isDragActive ? 'border-green-500' : 'border-gray-500'} 
             bg-gray-700 hover:border-green-500 cursor-pointer transition-all`}
         >
