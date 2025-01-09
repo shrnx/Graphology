@@ -17,5 +17,10 @@ export default {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [
+            nextui(),
+            require('tailwindcss-transforms')({
+              '3d': true, // Enable 3D transforms
+            }),
+          ],
 }

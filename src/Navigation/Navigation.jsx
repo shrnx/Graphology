@@ -10,7 +10,7 @@ export const NavigateToSignup = () => {
   return () => navigate("/signup")
 };
 
-export const NavigateToMainscreen = () => {
+export const NaivgateToChatScreen = () => {
   const navigate = useNavigate();
   return () => navigate("/chatscreen")
 };
